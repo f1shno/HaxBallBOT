@@ -572,11 +572,11 @@ room.setTeamColors(2, uniforms[acronymGuest].angle, uniforms[acronymGuest].textc
 
 room.onGameStart = function () {
 	room.sendAnnouncement(centerText("🥅🥅 PARTIDA INICIANDO 🥅🥅"), null, announcementColor, "bold", Notification.CHAT);
-	room.sendAnnouncement(centerText(`${emojiHome} ${nameHome} X ${nameGuest} ${emojiGuest}`), null, announcementColor, "bold", 0);
+	room.sendAnnouncement(centerText("${emojiHome} ${nameHome} X ${nameGuest} ${emojiGuest}"), null, announcementColor, "bold", 0);
 
 	if (undefeatedScore !== 0) {
-		room.sendAnnouncement(centerText(`     📢 ${nameHome} está invicto 📢`), null, announcementColor, "bold", 0);
-		room.sendAnnouncement(centerText(`     📢 Sequência de ${undefeatedScore} jogo(s) 📢`), null, announcementColor, "bold", 0);
+		room.sendAnnouncement(centerText("     📢 ${nameHome} está invicto 📢"), null, announcementColor, "bold", 0);
+		room.sendAnnouncement(centerText("    📢 Sequência de ${undefeatedScore} jogo(s) 📢"), null, announcementColor, "bold", 0);
 	}
 
 	Hposs = 0;
