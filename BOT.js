@@ -4,7 +4,7 @@ var room = HBInit({
 	noPlayer: true, // Tira o Host da sala
 	public: true, //Server aparece na lista pública
 	password: "Senha", // Define uma senha
-	geo: { "code": 'br', "lat": -12.9704, "lon": -38.5124 } //Geolocalização da sala
+	geo: { "code": 'br', "lat": -19.912998, "lon": -43.940933 } //Geolocalização da sala
 });
 
 
