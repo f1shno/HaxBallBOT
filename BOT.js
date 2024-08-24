@@ -36,7 +36,7 @@ var commands = {
 	"ajuda": {
 		"aliases": [],
 		"roles": Role.PLAYER,
-		"desc": `Esse comando mostra todos os outros comandos, e pode também explicar a função de cada comando. \nExemple: \'!help bb\' mostrará a função do comando \'bb\'.`,
+		"desc": "Esse comando mostra todos os outros comandos, e pode também explicar a função de cada comando. \nExemple: \'!help bb\' mostrará a função do comando \'bb\'.",
 		"function": helpCommand,
 	},
 	"rr": {
