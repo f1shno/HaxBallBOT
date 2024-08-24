@@ -571,7 +571,7 @@ room.setTeamColors(2, uniforms[acronymGuest].angle, uniforms[acronymGuest].textc
 /* ----- FUNÇÕES PRIMÁRIAS ----- */
 
 room.onGameStart = function () {
-	room.sendAnnouncement(centerText(`🥅🥅 PARTIDA INICIANDO 🥅🥅`), null, announcementColor, "bold", Notification.CHAT);
+	room.sendAnnouncement(centerText("🥅🥅 PARTIDA INICIANDO 🥅🥅"), null, announcementColor, "bold", Notification.CHAT);
 	room.sendAnnouncement(centerText(`${emojiHome} ${nameHome} X ${nameGuest} ${emojiGuest}`), null, announcementColor, "bold", 0);
 
 	if (undefeatedScore !== 0) {
