@@ -42,13 +42,13 @@ var commands = {
 	"rr": {
 		"aliases": [],
 		"roles": Role.ADMIN,
-		"desc": `Esse comando reinicia o jogo.`,
+		"desc": `O comando reinicia o jogo.`,
 		"function": restartCommand,
 	},
 	"bb": {
 		"aliases": ["bye", "gn", "cya"],
 		"roles": Role.PLAYER,
-		"desc": `Esse comando te desconecta rapidamente.`,
+		"desc": `O comando te desconecta rapidamente.`,
 		"function": leaveCommand,
 	},
 	"claim": {
@@ -60,19 +60,19 @@ var commands = {
 	"pass": {
 		"aliases": [],
 		"roles": Role.ADMIN,
-		"desc": `Esse comando reinicia o jogo.`,
+		"desc": `O comando reinicia o jogo.`,
 		"function": passwordCommand,
 	},
 	"uniforme": {
 		"aliases": [],
 		"roles": Role.PLAYER,
-		"desc": `Esse comando mostra os uniformes disponíveis para colocar no seu time.\nExemplo: \'!uniforme bah\' coloca o uniforme do bahia em seu time.`,
+		"desc": `O comando mostra os uniformes disponíveis para colocar no seu time.\nExemplo: \'!uniforme bah\' coloca o uniforme do bahia em seu time.`,
 		"function": uniformCommand,
 	},
 	"reserva": {
 		"aliases": [],
 		"roles": Role.PLAYER,
-		"desc": `Esse comando muda o uniforme do time para reserva.\nExemplo: \'!reserva\' coloca o uniforme reserva do seu time.`,
+		"desc": `O comando muda o uniforme do time para reserva.\nExemplo: \'!reserva\' coloca o uniforme reserva do seu time.`,
 		"function": reserveCommand,
 	}
 }
